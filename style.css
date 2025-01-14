@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: serif;
+}
+body {
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  padding: 5px 10px;
+}
+.child-1 {
+  height: 100%;
+  background: #fff49b;
+  background-color: coral;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+#main-title {
+  width: 100%;
+  font-size: 30px;
+  color: whitesmoke;
+  background-color: rgb(138, 150, 255);
+  padding: 5px 5px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  text-decoration: underline;
+  text-underline-offset: 3.5px;
+  text-align: center;
+}
+.child-2 {
+  width: 100%;
+  background-color: rgb(255, 99, 71);
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+.intro-heading {
+  width: 100%;
+  font-size: 20px;
+  color: rgb(178, 186, 187);
+  background: #8a2be2;
+  padding: 5px 5px;
+  text-decoration: underline;
+  text-underline-offset: 3.5px;
+  text-transform: uppercase;
+}
+.intro-paragraph {
+  width: 100%;
+  font-size: 18px;
+  color: whitesmoke;
+  background: #8a2be2;
+  padding: 0 5px;
+  line-height: 25px;
+  text-transform: capitalize;
+}
+#unstyle-paragraph {
+  width: 100%;
+  background-color: rgba(0, 128, 0, 0.3);
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#unstyle-paragraph h2 {
+  width: 100%;
+  font-size: 20px;
+  color: whitesmoke;
+  padding: 5px 5px;
+  text-decoration: underline;
+  text-underline-offset: 3.5px;
+  text-transform: uppercase;
+}
+#para {
+  width: 100%;
+  background-color: rgba(0, 128, 0, 0.3);
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px 5px;
+}
+#para p {
+  width: 100%;
+  font-size: 20px;
+  color: whitesmoke;
+}
